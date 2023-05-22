@@ -5,7 +5,7 @@ export default function Page() {
   date.setHours(date.getHours() + 1);
   return (
     <p>
-      The big event is happening <Countdown target={date.toISOString()} />.
+      A really big event is happening <Countdown target={date.toISOString()} />.
     </p>
   );
 }
